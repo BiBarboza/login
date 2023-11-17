@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+
+
+
+
+:root {
+    --color-white: #FFFFFF;
+    --color-purple-200: #8C31E0;
+    --color-purple-100: #D695E2;
+    --color-purple-90: #C88DF5;
+}
+
+.logo {
+    width: 160px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.h2Dois {
+    font-size: 12px;
+    color: black;
+}
+
+h3 {
+    color: var(--color-white);
+    font-size: 25px;
+    font-family: 'Noto Sans';
+    margin-right: 5%;
+    margin-top: 5%;
+    color: var(--color-white);
+}
+
+.h3Dois {
+    color: var(--color-purple-200);
+}
+
+* {
+    font-family: 'Noto Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/fundo\ escuro.png);
+    background-repeat: no-repeat;
+}
+
+#dadosLogin_form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    border-radius: 12px;
+    gap: 30px;
+    height: fit-content;
+    justify-content: center;
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box {
+    font-size: 14px;
+    color: black;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-purple-200);
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.meuBotao {
+    padding: 8px 17px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(223, 173, 244);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.meuBotaoDois {
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 45px;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.meuBotaoDois:hover {
+    background-color: rgb(63,19,98);
+    color: white;
+}
